@@ -1,0 +1,65 @@
+<<2021-12-23 20:01:25.905536>> Server is starting.
+<<2021-12-23 20:01:25.905536>> Listening to the port (80)
+<<2021-12-23 20:02:30.652202>> Connected to 127.0.0.1:55350
+<<2021-12-23 20:03:25.902195>> Not found directory: data 
+Try again!
+<<2021-12-23 20:03:25.902195>> Accepting data: data
+<<2021-12-23 20:03:25.902195>> Sending data: Not found directory: data 
+Try again!
+<<2021-12-23 20:03:40.228901>> Home directory saved: C:\Users\brown1e\Desktop\FTP_SERVER\client
+<<2021-12-23 20:03:40.228901>> Accepting data: C:\Users\brown1e\Desktop\FTP_SERVER\client
+<<2021-12-23 20:03:40.228901>> Sending data: Home directory saved: C:\Users\brown1e\Desktop\FTP_SERVER\client
+<<2021-12-23 20:03:55.417838>> Accepting data: ls
+<<2021-12-23 20:03:55.417838>> Sending data: 'client.py', 'clienttest.txt'
+<<2021-12-23 20:04:04.797399>> Accepting data: mkdir
+<<2021-12-23 20:04:04.812632>> Sending data: Error
+<<2021-12-23 20:04:09.032699>> Accepting data: mkdir test
+<<2021-12-23 20:04:09.032699>> Sending data: Ok
+<<2021-12-23 20:04:10.908161>> Accepting data: ls
+<<2021-12-23 20:04:10.908161>> Sending data: 'client.py', 'clienttest.txt', 'test'
+<<2021-12-23 20:04:16.359749>> Accepting data: rmdir test
+<<2021-12-23 20:04:16.359749>> Sending data: Ok
+<<2021-12-23 20:04:17.128554>> Accepting data: ls
+<<2021-12-23 20:04:17.143927>> Sending data: 'client.py', 'clienttest.txt'
+<<2021-12-23 20:05:42.068447>> Accepting data: help
+<<2021-12-23 20:05:42.091583>> Sending data: 
+                "ls": "Вывод содержимого текущей папки на экран",
+                "mkdir": "Создание папки",
+                "rmdir": "Удаление папки",
+                "remove": "Удаление файла",
+                "rename": "Переименовать файл/папку",
+                "exit": "Отключение от сервера",
+                "stop": "Выключение сервера"
+        
+<<2021-12-23 20:06:11.704833>> Closing connection.
+<<2021-12-23 20:06:17.904690>> Server is starting.
+<<2021-12-23 20:06:17.904690>> Listening to the port (80)
+<<2021-12-23 20:06:32.354660>> Connected to 127.0.0.1:55488
+<<2021-12-23 20:09:33.063916>> Not found directory: privet 
+Try again!
+<<2021-12-23 20:09:33.079223>> Accepting data: privet
+<<2021-12-23 20:09:33.079223>> Sending data: Not found directory: privet 
+Try again!
+<<2021-12-23 20:09:41.507384>> Not found directory: C:\Users\brown1e\Desktop\FTP_SERVER\client>python client.py 
+Try again!
+<<2021-12-23 20:09:41.507384>> Accepting data: C:\Users\brown1e\Desktop\FTP_SERVER\client>python client.py
+<<2021-12-23 20:09:41.507384>> Sending data: Not found directory: C:\Users\brown1e\Desktop\FTP_SERVER\client>python client.py 
+Try again!
+<<2021-12-23 20:09:50.827904>> Home directory saved: C:\Users\brown1e\Desktop\FTP_SERVER\client
+<<2021-12-23 20:09:50.827904>> Accepting data: C:\Users\brown1e\Desktop\FTP_SERVER\client
+<<2021-12-23 20:09:50.827904>> Sending data: Home directory saved: C:\Users\brown1e\Desktop\FTP_SERVER\client
+<<2021-12-23 20:09:53.257030>> Accepting data: privet
+<<2021-12-23 20:09:53.257030>> Sending data: None
+<<2021-12-23 20:10:03.300488>> Accepting data: Kak dela?
+<<2021-12-23 20:10:03.318324>> Sending data: None
+<<2021-12-23 20:10:06.736039>> Accepting data: help
+<<2021-12-23 20:10:06.736039>> Sending data: 
+                "ls": "Вывод содержимого текущей папки на экран",
+                "mkdir": "Создание папки",
+                "rmdir": "Удаление папки",
+                "remove": "Удаление файла",
+                "rename": "Переименовать файл/папку",
+                "exit": "Отключение от сервера",
+                "stop": "Выключение сервера"
+        
+<<2021-12-23 20:24:07.688501>> ERROR: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
